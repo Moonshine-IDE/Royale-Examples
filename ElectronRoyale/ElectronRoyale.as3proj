@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <output>
+    <movie fps="60"/>
+    <movie height="600"/>
+    <movie disabled="False"/>
+    <movie background="#FFFFFF"/>
+    <movie path="bin-debug/ElectronRoyale.swf"/>
+    <movie width="800"/>
+    <movie platform="Flash Player"/>
+    <movie version="11"/>
+    <movie input=""/>
+  </output>
+  &lt;!-- Other classes to be compiled into your SWF --&gt;
+  <jsOutput>
+    <option path=""/>
+  </jsOutput>
+  <classpaths>
+    <class path="src"/>
+  </classpaths>
+  <moonshineResourcePaths></moonshineResourcePaths>
+  <moonshineNativeExtensionPaths></moonshineNativeExtensionPaths>
+  <build>
+    <option benchmark="False"/>
+    <option warnings="True"/>
+    <option additional="-theme=${royalelib}/themes/JewelTheme/src/main/resources/defaults.css -html-template=src/resources/jewel-index-template.html"/>
+    <option locale=""/>
+    <option customSDK=""/>
+    <option loadConfig=""/>
+    <option antBuildPath="build/build.xml"/>
+    <option optimize="False"/>
+    <option staticLinkRSL="False"/>
+    <option es="False"/>
+    <option verboseStackTraces="False"/>
+    <option compilerConstants=""/>
+    <option linkReport=""/>
+    <option showDeprecationWarnings="True"/>
+    <option showActionScriptWarnings="True"/>
+    <option showUnusedTypeSelectorWarnings="True"/>
+    <option showBindingWarnings="True"/>
+    <option strict="True"/>
+    <option accessible="False"/>
+    <option useNetwork="True"/>
+    <option allowSourcePathOverlap="False"/>
+    <option useResourceBundleMetadata="True"/>
+  </build>
+  <mavenBuild>
+    <option settingsFilePath=""/>
+    <option mavenBuildPath=""/>
+    <option commandLine=""/>
+    <actions>
+      <action action="install" actionName="Build"/>
+      <action action="clean package" actionName="Clean and package"/>
+      <action action="clean" actionName="Clean"/>
+      <action action="clean install" actionName="Clean and Build"/>
+      <action action="war:exploded" actionName="Exploded"/>
+    </actions>
+  </mavenBuild>
+  <includeLibraries></includeLibraries>
+  <libraryPaths></libraryPaths>
+  <externalLibraryPaths></externalLibraryPaths>
+  <rslPaths></rslPaths>
+  <intrinsics>
+    <element path="Library/AS3/frameworks/Flex4"/>
+    <element path="Library\AS3\frameworks\Flex4"/>
+    <element path="Library\AS3\frameworks\Flex4"/>
+  </intrinsics>
+  <library></library>
+  <compileTargets>
+    <compile path="src/ElectronRoyale.mxml"/>
+  </compileTargets>
+  <hiddenPaths></hiddenPaths>
+  <preBuildCommand>null</preBuildCommand>
+  <postBuildCommand alwaysRun="False">null</postBuildCommand>
+  <trustSVNCertificate>False</trustSVNCertificate>
+  <options>
+    <option isRoyale="True"/>
+    <option defaultBuildTargets=""/>
+    <option testMovie=""/>
+    <option isExportedToExistingSource="False"/>
+    <option visualEditorExportPath=""/>
+    <option isPrimeFacesVisualEditor="False"/>
+    <option testMovieCommand=""/>
+    <option showHiddenPaths="False"/>
+  </options>
+  <moonshineRunCustomization>
+    <option customUrlToLaunch=""/>
+    <option deviceSimulator="null"/>
+    <option launchMethod="Simulator"/>
+    <option projectType="2"/>
+    <option targetPlatform="2"/>
+    <option urlToLaunch=""/>
+    <deviceSimulator>null</deviceSimulator>
+    <certAndroid>null</certAndroid>
+    <certIos>null</certIos>
+    <certIosProvisioning>null</certIosProvisioning>
+  </moonshineRunCustomization>
+</project>
